@@ -1,6 +1,6 @@
+package screenshootDownloader;
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
-
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -18,7 +18,7 @@ public class MyThread extends Thread {
     @Override
     public void run() {
 
-        String ACCESS_TOKEN = ""; //TODO Need to insert your token e.g. "String ACCESS_TOKEN = "f432423dsf432523dsfdsf2213ds""
+        String ACCESS_TOKEN = ""; //Enter your access token
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
         DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
         for (; ; ) {

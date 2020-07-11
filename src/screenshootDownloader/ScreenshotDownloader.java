@@ -1,7 +1,14 @@
+package screenshootDownloader;
+
+
 public class ScreenshotDownloader {
-    public static void main(String[] args) {
+
+
+    public void runSD() {
 
         MyThread thread = new MyThread();
         thread.start();
     }
+
+
 }
