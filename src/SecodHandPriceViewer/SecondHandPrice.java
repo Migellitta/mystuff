@@ -20,8 +20,12 @@ public class SecondHandPrice {
                 out.print("Скажи насколько ты сильный и сколько собираешься потащить оттуда! \n");
                 weightAmount = in.nextDouble();
                 f = true;
-                if (weightAmount >50) {
+                if (weightAmount > 50) {
                     out.println("Ну и зачем тебе так много, а? Бро оставь другим тоже. Давай до 50кг!");
+                    weightAmount = in.nextDouble();
+                }
+                if (weightAmount < 0) {
+                    out.println("Я то, конечно, мог бы посчитать это, Бро! Но давай ты введешь положительный вес!");
                     weightAmount = in.nextDouble();
                 }
                 in.close();
