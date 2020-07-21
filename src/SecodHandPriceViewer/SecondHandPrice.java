@@ -5,7 +5,8 @@ import java.util.Scanner;
 import static java.lang.System.out;
 
 public class SecondHandPrice {
-    public void run () {
+    public static void main(String[] args) {
+
 //            Секонд хэнд в Минске на ул. Богдановича, 78
 //            вс 37.90, пн 31.90, вт 20.90, ср 15.90, чт 10.90, пт 6.90, сб 41.90
         out.println("Здарова, Бро! Я - Ассистент для бич-закупок из секонда! Помогу тебе узнать че по чем сегодня!");

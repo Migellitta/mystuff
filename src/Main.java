@@ -1,6 +1,6 @@
 import SecodHandPriceViewer.SecondHandPrice;
 import screenshootDownloader.ScreenshotDownloader;
-import кофемашина.coffeeMachine;
+import coffeeMachine.coffeeMachine;
 
 
 public class Main {
@@ -8,6 +8,6 @@ public class Main {
         ScreenshotDownloader SsDl = new ScreenshotDownloader();
         coffeeMachine cm = new coffeeMachine();
         SecondHandPrice SHP = new SecondHandPrice();
-        SHP.run();
+//        SHP.run();
     }
 }

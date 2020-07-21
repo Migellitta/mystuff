@@ -1,5 +1,4 @@
-package кофемашина;
-
+package coffeeMachine;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.text.SimpleDateFormat;
