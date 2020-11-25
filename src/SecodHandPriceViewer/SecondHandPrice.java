@@ -21,11 +21,11 @@ public class SecondHandPrice {
                 out.print("Скажи насколько ты сильный и сколько собираешься потащить оттуда! \n");
                 weightAmount = in.nextDouble();
                 f = true;
-                for (;weightAmount > 50; ) {
+                while (weightAmount > 50) {
                     out.println("Ну и зачем тебе так много, а? Бро оставь другим тоже. Давай до 50кг!");
                     weightAmount = in.nextDouble();
                 }
-                for (;weightAmount < 0; ) {
+                while (weightAmount < 0) {
                     out.println("Я то, конечно, мог бы посчитать это, Бро! Но давай ты введешь положительный вес!");
                     weightAmount = in.nextDouble();
                 }
@@ -40,35 +40,35 @@ public class SecondHandPrice {
         Calendar c = Calendar.getInstance();
         int dayOfWeek = c.get(Calendar.DAY_OF_WEEK);
 
-        switch (dayOfWeek){
-            case 1:
-                summary = weightAmount*currentPrice[0];
+        switch (dayOfWeek) {
+            case 1 -> {
+                summary = weightAmount * currentPrice[0];
                 out.println(df.format(summary) + " рубаса! Если не к спеху, то спроси меня завтра! Будет дешевле!");
-                break;
-            case 2:
-                summary = weightAmount*currentPrice[1];
+            }
+            case 2 -> {
+                summary = weightAmount * currentPrice[1];
                 out.println(df.format(summary) + " рубаса! Если не к спеху, то спроси меня завтра! Будет дешевле!");
-                break;
-            case 3:
-                summary = weightAmount*currentPrice[2];
+            }
+            case 3 -> {
+                summary = weightAmount * currentPrice[2];
                 out.println(df.format(summary) + " рубаса! Если не к спеху, то спроси меня завтра! Будет дешевле!");
-                break;
-            case 4:
-                summary = weightAmount*currentPrice[3];
+            }
+            case 4 -> {
+                summary = weightAmount * currentPrice[3];
                 out.println(df.format(summary) + " рубаса! Если не к спеху, то спроси меня завтра! Будет дешевле!");
-                break;
-            case 5:
-                summary = weightAmount*currentPrice[4];
+            }
+            case 5 -> {
+                summary = weightAmount * currentPrice[4];
                 out.println(df.format(summary) + " рубаса! Если не к спеху, то спроси меня завтра! Будет дешевле!");
-                break;
-            case 6:
-                summary = weightAmount*currentPrice[5];
+            }
+            case 6 -> {
+                summary = weightAmount * currentPrice[5];
                 out.println(df.format(summary) + " рубаса! Поспеши, Бро! Сегодня самые лучшие цены! Завтра будет капец как дорого!");
-                break;
-            case 7:
-                summary = weightAmount*currentPrice[6];
+            }
+            case 7 -> {
+                summary = weightAmount * currentPrice[6];
                 out.println(df.format(summary) + " рубаса! Сегодня самый дорогой день! Завтра будет дешевле!");
-                break;
+            }
         }
         out.println("До встречи, Бро! Я устал, пойду адихать!");
     }

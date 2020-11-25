@@ -8,6 +8,5 @@ public class Main {
         ScreenshotDownloader SsDl = new ScreenshotDownloader();
         coffeeMachine cm = new coffeeMachine();
         SecondHandPrice SHP = new SecondHandPrice();
-//        SHP.run();
     }
 }
