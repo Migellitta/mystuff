@@ -1,4 +1,5 @@
 package randomNumberGenerator;
+
 import java.util.Arrays;
 
 public class RandomNumberGenerator {

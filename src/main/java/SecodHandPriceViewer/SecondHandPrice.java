@@ -1,7 +1,9 @@
 package SecodHandPriceViewer;
+
 import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Scanner;
+
 import static java.lang.System.out;
 
 public class SecondHandPrice {
@@ -11,8 +13,8 @@ public class SecondHandPrice {
 //            вс 37.90, пн 31.90, вт 20.90, ср 15.90, чт 10.90, пт 6.90, сб 41.90
         out.println("Здарова, Бро! Я - Ассистент для бич-закупок из секонда! Помогу тебе узнать че по чем сегодня!");
         DecimalFormat df = new DecimalFormat("###.##");
-        int [] daysOfWeek = {1, 2, 3, 4, 5, 6, 7};
-        double [] currentPrice = {37.90, 31.90, 20.90, 15.90, 10.90, 6.90, 41.90,};
+        int[] daysOfWeek = {1, 2, 3, 4, 5, 6, 7};
+        double[] currentPrice = {37.90, 31.90, 20.90, 15.90, 10.90, 6.90, 41.90,};
         double weightAmount = 50;
         boolean f = false;
         do {

@@ -1,4 +1,5 @@
 package coffeeMachine;
+
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.text.SimpleDateFormat;
@@ -9,7 +10,7 @@ import static java.lang.System.out;
 
 
 public class coffeeMachine {
-    public void  runCM() {
+    public void runCM() {
 
         out.println("Кофе-машина");
 

@@ -1,9 +1,7 @@
 import SecodHandPriceViewer.SecondHandPrice;
+import coffeeMachine.coffeeMachine;
 import randomNumberGenerator.RandomNumberGenerator;
 import screenshootDownloader.ScreenshotDownloader;
-import coffeeMachine.coffeeMachine;
-
-import java.io.IOException;
 
 
 public class Main {

@@ -1,6 +1,8 @@
 package screenshootDownloader;
+
 import com.dropbox.core.DbxRequestConfig;
 import com.dropbox.core.v2.DbxClientV2;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -15,6 +17,7 @@ import static java.awt.Toolkit.getDefaultToolkit;
 public class MyThread extends Thread {
     public BufferedImage image;
     public DbxClientV2 client;
+
     @Override
     public void run() {
 
