@@ -1,12 +1,15 @@
 import SecodHandPriceViewer.SecondHandPrice;
+import randomNumberGenerator.RandomNumberGenerator;
 import screenshootDownloader.ScreenshotDownloader;
 import coffeeMachine.coffeeMachine;
 
 
 public class Main {
     public static void main(String[] args) {
-        ScreenshotDownloader SsDl = new ScreenshotDownloader();
         coffeeMachine cm = new coffeeMachine();
         SecondHandPrice SHP = new SecondHandPrice();
+        ScreenshotDownloader SsDl = new ScreenshotDownloader();
+        RandomNumberGenerator rng = new RandomNumberGenerator();
+        rng.getNumbers(args);
     }
 }
