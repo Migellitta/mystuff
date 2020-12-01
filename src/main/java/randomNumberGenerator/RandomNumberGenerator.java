@@ -19,7 +19,6 @@ public class RandomNumberGenerator {
         }
     }
 
-    @org.jetbrains.annotations.NotNull
     private int[] getOnlyNumbers(String[] args) {
         String incomingArgs = Arrays.toString(args);
         int argsLengthForOnlyNumbers = args.length;
