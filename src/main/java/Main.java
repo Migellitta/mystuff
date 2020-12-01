@@ -13,8 +13,6 @@ public class Main {
         ScreenshotDownloader SsDl = new ScreenshotDownloader();
         RandomNumberGenerator rng = new RandomNumberGenerator();
         rng.getNumbers(args);
-
-
     }
 
 }
