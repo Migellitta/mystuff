@@ -43,4 +43,13 @@ public class RandomNumberGenerator {
         }
         return argsOnlyNumbers;
     }
+    public void GetNumberAlternative(String[] args){
+        long m = System.currentTimeMillis();
+        StringBuilder chislo = new StringBuilder();
+        long cifri = Long.parseLong(args[0]);
+        for (long i = 0; i < cifri; i++) {
+            chislo.append((int)(Math.random() * 10));
+        }
+        System.out.println(chislo + "\n" + (double) (System.currentTimeMillis() - m));
+    }
 }
