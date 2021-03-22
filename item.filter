@@ -83,8 +83,8 @@ ItemDisplay[tbk]: %BLUE%TP %WHITE%Book
 //ItemDisplay[isc]: %WHITE%!%RED%ID
 ItemDisplay[tsc]: %WHITE%!%BLUE%TP
 ItemDisplay[key]: %WHITE%!%ORANGE%Key
-ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
-ItemDisplay[mp5]: %WHITE%!%BLUE%MP%WHITE%+
+ItemDisplay[hp5]: %WHITE%!%RED%Heal%WHITE%+
+ItemDisplay[mp5]: %WHITE%!%BLUE%Mana%WHITE%+
 ItemDisplay[rvs]: %WHITE%!%PURPLE%Low
 ItemDisplay[rvl]: %WHITE%!%PURPLE%Full
 ItemDisplay[CLVL>79 hp4]:
