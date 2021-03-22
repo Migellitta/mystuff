@@ -1,8 +1,8 @@
-﻿//RenTed#3537 Loot Filter
-//Please take a screenshot when reporting something, it will greatly help me fixing it.
-//If something is missing, let me know I will add it.
-//
-//
+﻿//made by Migellitta
+//Shows quest, scrolls tp, potions, keys, flaw and perf gems, runes with notifs
+//Shows all sets and uniqs, also all rare exept+ gear, magic rings and amu
+//Shows magic+ class speciff items
+//Shows all types of craft gloves, belts and boots
 //╔══════════════╗
 //║ Quests Items ║
 //╚══════════════╝
@@ -40,24 +40,24 @@ ItemDisplay[cx5]: %SOUND-3000%%MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%Orb of Corrup
 ItemDisplay[maz]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %RED%Infernal Trial %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma1 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma2 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤%NL%
-//ItemDisplay[ma3 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
+ItemDisplay[ma3 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %GREEN%¤¤¤¤¤¤
 ItemDisplay[ma4 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma5 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T1 %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma6 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma7 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T3 %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma8 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤%NL%
 ItemDisplay[ma9 !ID]: %MAP%%NL%%GREEN%¤¤¤¤¤¤ %PURPLE%%NAME% %RED%T2 %GREEN%¤¤¤¤¤¤%NL%
-//ItemDisplay[ma10 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME%
+ItemDisplay[ma10 !ID]: %GREEN%¤¤¤¤¤¤ %PURPLE%%NAME%
 ItemDisplay[ma1 ID]: %PURPLE%%NAME% %GREEN%T1
 ItemDisplay[ma2 ID]: %PURPLE%%NAME% %GREEN%T3
-//ItemDisplay[ma3 ID]: %PURPLE%%NAME%
+ItemDisplay[ma3 ID]: %PURPLE%%NAME%
 ItemDisplay[ma4 ID]: %PURPLE%%NAME% %GREEN%T2
 ItemDisplay[ma5 ID]: %PURPLE%%NAME% %GREEN%T1
 ItemDisplay[ma6 ID]: %PURPLE%%NAME% %GREEN%T3
 ItemDisplay[ma7 ID]: %PURPLE%%NAME% %GREEN%T3
 ItemDisplay[ma8 ID]: %PURPLE%%NAME% %GREEN%T2
 ItemDisplay[ma9 ID]: %PURPLE%%NAME% %GREEN%T2
-//ItemDisplay[ma10 ID]: %PURPLE%%NAME%
+ItemDisplay[ma10 ID]: %PURPLE%%NAME%
 ItemDisplay[tes]: %MAP%%NL%%RED%¤¤ %ORANGE%Suffering %RED%[Andariel]%NL%
 ItemDisplay[ceh]: %MAP%%NL%%RED%¤¤ %ORANGE%Hatred %RED%[Mephisto]%NL%
 ItemDisplay[bet]: %MAP%%NL%%RED%¤¤ %ORANGE%Terror %RED%[Diablo]%NL%
@@ -80,7 +80,7 @@ ItemDisplay[cx9]: %NAME%
 //
 ItemDisplay[ibk]: %RED%ID %WHITE%Book
 ItemDisplay[tbk]: %BLUE%TP %WHITE%Book
-ItemDisplay[isc]: %WHITE%!%RED%ID
+//ItemDisplay[isc]: %WHITE%!%RED%ID
 ItemDisplay[tsc]: %WHITE%!%BLUE%TP
 ItemDisplay[key]: %WHITE%!%ORANGE%Key
 ItemDisplay[hp5]: %WHITE%!%RED%HP%WHITE%+
@@ -95,20 +95,20 @@ ItemDisplay[CLVL>79 mp4]:
 ItemDisplay[CLVL>60 mp3]:
 ItemDisplay[CLVL>30 mp2]:
 ItemDisplay[CLVL>15 mp1]:
-ItemDisplay[CLVL<80 hp4]: %WHITE%Great !%RED%HP
-ItemDisplay[CLVL<49 hp3]: %WHITE%Normal !%RED%HP
-ItemDisplay[CLVL<25 hp2]: %WHITE%Light !%RED%HP
-ItemDisplay[CLVL<13 hp1]: %WHITE%Minor !%RED%HP
-ItemDisplay[CLVL<80 mp4]: %WHITE%Great !%BLUE%MP
-ItemDisplay[CLVL<61 mp3]: %WHITE%Normal !%BLUE%MP
-ItemDisplay[CLVL<31 mp2]: %WHITE%Light !%BLUE%MP
-ItemDisplay[CLVL<16 mp1]: %WHITE%Minor !%BLUE%MP
+ItemDisplay[CLVL<80 hp4]: %WHITE%Great !%RED%Heal
+ItemDisplay[CLVL<49 hp3]: %WHITE%Normal !%RED%Heal
+ItemDisplay[CLVL<25 hp2]: %WHITE%Light !%RED%Heal
+ItemDisplay[CLVL<13 hp1]: %WHITE%Minor !%RED%Heal
+ItemDisplay[CLVL<80 mp4]: %WHITE%Great !%BLUE%Mana
+ItemDisplay[CLVL<61 mp3]: %WHITE%Normal !%BLUE%Mana
+ItemDisplay[CLVL<31 mp2]: %WHITE%Light !%BLUE%Mana
+ItemDisplay[CLVL<16 mp1]: %WHITE%Minor !%BLUE%Mana
 ItemDisplay[leg]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ear]: %NAME%
 ItemDisplay[yps]: %WHITE%!%GREEN%Ant
 ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
 ItemDisplay[wms]:
-ItemDisplay[CLVL<20 vps]: %WHITE%!%GRAY%Stam
+//ItemDisplay[CLVL<20 vps]: %WHITE%!%GRAY%Stam
 ItemDisplay[vps]:
 ItemDisplay[gpm]:
 ItemDisplay[opm]:
@@ -224,25 +224,25 @@ ItemDisplay[skz]: %PURPLE%P %ORANGE%Skull
 //╚═══════╝
 //
 ItemDisplay[RW]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[r01]: %ORANGE%%RUNENAME% %TAN%[1]
-ItemDisplay[r02]: %ORANGE%%RUNENAME% %TAN%[2]
-ItemDisplay[r03]: %ORANGE%%RUNENAME% %TAN%[3]
-ItemDisplay[r04]: %ORANGE%%RUNENAME% %TAN%[4]
-ItemDisplay[r05]: %ORANGE%%RUNENAME% %TAN%[5]
-ItemDisplay[r06]: %ORANGE%%RUNENAME% %TAN%[6]
-ItemDisplay[r07]: %ORANGE%%RUNENAME% %TAN%[7]
+ItemDisplay[r01]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[1]%NL%
+ItemDisplay[r02]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[2]%NL%
+ItemDisplay[r03]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[3]%NL%
+ItemDisplay[r04]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[4]%NL%
+ItemDisplay[r05]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[5]%NL%
+ItemDisplay[r06]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[6]%NL%
+ItemDisplay[r07]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[7]%NL%
 ItemDisplay[r08]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[8]%NL%
-ItemDisplay[r09]: %ORANGE%%RUNENAME% %TAN%[9]
-ItemDisplay[r10]: %ORANGE%%RUNENAME% %TAN%[10]
-ItemDisplay[r11]: %ORANGE%%RUNENAME% %TAN%[11]
+ItemDisplay[r09]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[9]%NL%
+ItemDisplay[r10]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[10]%NL%
+ItemDisplay[r11]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[11]%NL%
 ItemDisplay[r12]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[12]%NL%
-ItemDisplay[r13]: %ORANGE%%RUNENAME% %TAN%[13]
-ItemDisplay[r14]: %ORANGE%%RUNENAME% %TAN%[14]
+ItemDisplay[r13]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[13]%NL%
+ItemDisplay[r14]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[14]%NL%
 ItemDisplay[r15]: %MAP%%NL%%RED%¤¤¤¤ %ORANGE%%RUNENAME% %RED%¤¤¤¤ %TAN%[15]%NL%
-ItemDisplay[r16]: %ORANGE%%RUNENAME% %TAN%[16]
-ItemDisplay[r17]: %ORANGE%%RUNENAME% %TAN%[17]
-ItemDisplay[r18]: %ORANGE%%RUNENAME% %TAN%[18]
-ItemDisplay[r19]: %ORANGE%%RUNENAME% %TAN%[19]
+ItemDisplay[r16]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[16]%NL%
+ItemDisplay[r17]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[17]%NL%
+ItemDisplay[r18]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[18]%NL%
+ItemDisplay[r19]: %MAP%%NL%%ORANGE%%RUNENAME% %TAN%[19]%NL%
 ItemDisplay[r20]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[20]%NL%
 ItemDisplay[r21]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[21]%NL%
 ItemDisplay[r22]: %MAP%%NL%%RED%¤¤¤¤¤¤¤ %PURPLE%%RUNENAME% %RED%¤¤¤¤¤¤¤ %TAN%[22]%NL%
