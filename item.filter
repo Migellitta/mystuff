@@ -105,8 +105,8 @@ ItemDisplay[CLVL<31 mp2]: %WHITE%Light !%BLUE%Mana
 ItemDisplay[CLVL<16 mp1]: %WHITE%Minor !%BLUE%Mana
 ItemDisplay[leg]: %NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[ear]: %NAME%
-ItemDisplay[yps]: %WHITE%!%GREEN%Ant
-ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
+//ItemDisplay[yps]: %WHITE%!%GREEN%Ant
+//ItemDisplay[CLVL<50 wms]: %WHITE%!%YELLOW%Thaw
 ItemDisplay[wms]:
 //ItemDisplay[CLVL<20 vps]: %WHITE%!%GRAY%Stam
 ItemDisplay[vps]:
