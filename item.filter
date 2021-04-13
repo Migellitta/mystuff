@@ -82,7 +82,7 @@ ItemDisplay[ibk]: %RED%ID %WHITE%Book
 ItemDisplay[tbk]: %BLUE%TP %WHITE%Book
 //ItemDisplay[isc]: %WHITE%!%RED%ID
 ItemDisplay[tsc]: %WHITE%!%BLUE%TP
-ItemDisplay[key]: %WHITE%!%ORANGE%Key
+//ItemDisplay[key]: %WHITE%!%ORANGE%Key
 ItemDisplay[hp5]: %WHITE%!%RED%Heal%WHITE%+
 ItemDisplay[mp5]: %WHITE%!%BLUE%Mana%WHITE%+
 ItemDisplay[rvs]: %WHITE%!%PURPLE%Low
@@ -813,9 +813,8 @@ ItemDisplay[NMAG 6hb SOCK=4]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //╔══════════════╗
 //║ Insite bases ║
 //╚══════════════╝
-ItemDisplay[WP7 (SOCK>3 AND SOCK<5)]: %NAME%INSIGHT
-ItemDisplay[WP8 (SOCK>3 AND SOCK<5)]: %NAME%INSIGHT
-ItemDisplay[WP11 (SOCK>3 AND SOCK<5)]: %NAME%%RED%INSIGHT
+ItemDisplay[WP7 (SOCK>3 AND SOCK<5)]: %NAME% %RED%INSIGHT
+ItemDisplay[WP8 (SOCK>3 AND SOCK<5)]: %NAME%% RED%INSIGHT
 //
 //╔═════════════╗
 //║ White Items ║
