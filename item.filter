@@ -814,7 +814,7 @@ ItemDisplay[NMAG 6hb SOCK=4]: %DARK_GREEN%%NAME% %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //║ Insite bases ║
 //╚══════════════╝
 ItemDisplay[WP7 (SOCK>3 AND SOCK<5)]: %NAME% %RED%INSIGHT
-ItemDisplay[WP8 (SOCK>3 AND SOCK<5)]: %NAME%% RED%INSIGHT
+ItemDisplay[WP8 (SOCK>3 AND SOCK<5)]: %NAME% %RED%INSIGHT
 //
 //╔═════════════╗
 //║ White Items ║
