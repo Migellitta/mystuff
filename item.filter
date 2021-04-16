@@ -444,7 +444,7 @@ ItemDisplay[RARE !ID EQ7 ETH]: %MAP%%NL%%RED%¤¤¤¤¤ %WHITE%ETH %YELLOW%%NAME
 //╚════════════╝
 //
 ItemDisplay[SET !ID amu]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
-ItemDisplay[SET !ID rin]: %MAP%%NL%%RED%¤¤ %GREEN%%NAME% %RED%¤¤ %TAN%[%ILVL%]%NL%
+//ItemDisplay[SET !ID rin]: %MAP%%NL%%RED%¤¤ %GREEN%%NAME% %RED%¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID uar]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID uth]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[SET !ID xtb]: %MAP%%NL%%RED%¤¤¤¤¤¤¤¤ %GREEN%%NAME% %RED%¤¤¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
@@ -1031,6 +1031,6 @@ ItemDisplay[]:
 //
 //
 //
-//RenTed#3537 Loot Filter
+//
 //Please take a screenshot when reporting something, it will greatly help me fixing it.
 //If something is missing, let me know I will add it.
