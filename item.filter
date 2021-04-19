@@ -205,11 +205,11 @@ ItemDisplay[gsb]: Normal Sapphire
 ItemDisplay[gsy]: Normal Topaz
 ItemDisplay[sku]: Normal Skull
 ItemDisplay[gzv]: %ORANGE%Amethyst
-ItemDisplay[glw]: %ORANGE%Diamond
-ItemDisplay[glg]: %ORANGE%Emerald
+//ItemDisplay[glw]: %ORANGE%Diamond
+//ItemDisplay[glg]: %ORANGE%Emerald
 ItemDisplay[glr]: %ORANGE%Ruby
-ItemDisplay[glb]: %ORANGE%Sapphire
-ItemDisplay[gly]: %ORANGE%Topaz
+//ItemDisplay[glb]: %ORANGE%Sapphire
+//ItemDisplay[gly]: %ORANGE%Topaz
 ItemDisplay[skl]: %ORANGE%Skull
 ItemDisplay[gpv]: %PURPLE%P %ORANGE%Amethyst
 ItemDisplay[gpw]: %PURPLE%P %ORANGE%Diamond
@@ -478,13 +478,13 @@ ItemDisplay[SET !ID]: %NAME% %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK239>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Fire Claws %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK247>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Grizzly %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // CL2
-//ItemDisplay[NMAG SK149>1 SOCK=0 !ETH]: %DARK_GREEN%%NAME% %ORANGE%BO %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG SK149>1 SOCK=0 !ETH]: %DARK_GREEN%%NAME% %ORANGE%BO %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK154>1 SOCK=0 !ETH]: %DARK_GREEN%%NAME% %ORANGE%War Cry %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK142>1 SOCK=0 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Find Item %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK133>1 SOCK=0 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Throw %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK138>1 SOCK=0 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Shout %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK150>1 SOCK=0 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Grim Ward %RED%[%SOCKETS%] %TAN%[%ILVL%]
-//ItemDisplay[NMAG SK149>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%BO %RED%[%SOCKETS%] %TAN%[%ILVL%]
+ItemDisplay[NMAG SK149>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%BO %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK154>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%War Cry %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK142>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Find Item %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK133>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Throw %RED%[%SOCKETS%] %TAN%[%ILVL%]
