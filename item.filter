@@ -206,7 +206,7 @@ ItemDisplay[gsy]: Normal Topaz
 ItemDisplay[sku]: Normal Skull
 ItemDisplay[gzv]: %ORANGE%Amethyst
 //ItemDisplay[glw]: %ORANGE%Diamond
-//ItemDisplay[glg]: %ORANGE%Emerald
+ItemDisplay[glg]: %ORANGE%Emerald
 ItemDisplay[glr]: %ORANGE%Ruby
 //ItemDisplay[glb]: %ORANGE%Sapphire
 //ItemDisplay[gly]: %ORANGE%Topaz
@@ -492,20 +492,20 @@ ItemDisplay[SET !ID]: %NAME% %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK150>1 SOCK>1 !ETH]: %DARK_GREEN%%NAME% %ORANGE%Grim Ward %RED%[%SOCKETS%] %TAN%[%ILVL%]
 // CL3
 ItemDisplay[NMAG WP13 SOCK=4]: %DARK_GREEN%%NAME% %ORANGE%Holy Thunder  %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK121>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Fist of the Heavens %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK121>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Fist of the Heavens %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG SK112>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Blessed Hammer %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK119>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Sanctuary %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK102>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Fire %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK114>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Freeze %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK117>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Shield %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK118>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Shock %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK119>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Sanctuary %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK102>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Fire %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK114>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Freeze %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK117>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Shield %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK118>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Shock %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG SK121>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Fist of the Heavens %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG SK112>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Blessed Hammer %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK119>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Sanctuary %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK102>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Fire %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK114>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Freeze %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK117>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Shield %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK118>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Shock %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK119>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Sanctuary %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK102>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Fire %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK114>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Freeze %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK117>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Shield %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK118>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Shock %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG pab SOCK=0 !ETH RES>34]: %DARK_GREEN%%NAME% %ORANGE%Resists %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG pab SOCK>2 !ETH RES>34]: %DARK_GREEN%%NAME% %ORANGE%Resists %RED%[%SOCKETS%] %TAN%[%ILVL%]
 ItemDisplay[NMAG pab SOCK=0 ETH RES>34]: %WHITE%ETH %DARK_GREEN%%NAME% %ORANGE%Resists %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -560,7 +560,7 @@ ItemDisplay[NMAG SK68>1 SOCK=2 WP12]: %DARK_GREEN%%NAME% %ORANGE%Bone Armor %RED
 //ItemDisplay[NMAG (SK274>0 AND SK276>0) (SOCK=0 OR SOCK=3) !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%BoI+DS %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK261>1 SOCK=0 !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%Charged Bolt %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK262>1 SOCK=0 !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%Wake of Fire %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK271>1 SOCK=0 !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%Lightning Sentry %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK271>1 SOCK=0 !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%Lightning Sentry %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK272>1 SOCK=0 !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%Wake of Inferno %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK274>1 SOCK=0 !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%BoI %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK275>1 SOCK=0 !9cs !7xf !7cs]: %DARK_GREEN%%NAME% %ORANGE%Flight %RED%[%SOCKETS%] %TAN%[%ILVL%]
