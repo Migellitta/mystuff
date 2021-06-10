@@ -413,7 +413,7 @@ ItemDisplay[MAG CLVL<50 !ID]: %NAME% %TAN%[%ILVL%]
 //║ Rare Items ║
 //╚════════════╝
 //
-//ItemDisplay[RARE !ID aq2]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
+ItemDisplay[RARE !ID aq2]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID amu]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID rin]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
 ItemDisplay[RARE !ID jew]: %MAP%%NL%%RED%¤¤¤¤¤¤ %YELLOW%%NAME% %RED%¤¤¤¤¤¤ %TAN%[%ILVL%]%NL%
@@ -499,8 +499,8 @@ ItemDisplay[NMAG SK112>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Bles
 //ItemDisplay[NMAG SK114>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Freeze %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK117>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Shield %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK118>1 SOCK=0 !scp !9sc !7sc]: %DARK_GREEN%%NAME% %ORANGE%Holy Shock %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK121>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Fist of the Heavens %RED%[%SOCKETS%] %TAN%[%ILVL%]
-ItemDisplay[NMAG SK112>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Blessed Hammer %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK121>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Fist of the Heavens %RED%[%SOCKETS%] %TAN%[%ILVL%]
+//ItemDisplay[NMAG SK112>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Blessed Hammer %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK119>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Sanctuary %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK102>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Fire %RED%[%SOCKETS%] %TAN%[%ILVL%]
 //ItemDisplay[NMAG SK114>1 SOCK>2]: %DARK_GREEN%%NAME% %ORANGE%Holy Freeze %RED%[%SOCKETS%] %TAN%[%ILVL%]
@@ -821,8 +821,8 @@ ItemDisplay[WP8 (SOCK>3 AND SOCK<5)]: %NAME% %RED%INSIGHT
 //╚═════════════╝
 //
 //Money
-ItemDisplay[NMAG (wnd OR ywn OR 9wn) (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
-ItemDisplay[NMAG (wnd OR ywn OR 9wn) (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
+//ItemDisplay[NMAG (wnd OR ywn OR 9wn) (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
+//ItemDisplay[NMAG (wnd OR ywn OR 9wn) (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %WHITE%Sell Me > %GOLD%%PRICE%%WHITE%$
 //
 //╔══════════════╗
 //║ Gears Unique ║
